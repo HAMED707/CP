@@ -10,17 +10,5 @@ Beginner-level competitive programming problems from PSU (Port Said University) 
 - **[ExamChallenge_Contests](./ExamChallenge_Contests/)** - Challenge problems and exam-style contests
 - **[records](./records/)** - Progress records and notes
 
-## 🎯 Learning Objectives
-
-- Build foundational problem-solving skills
-- Learn basic algorithms and data structures
-- Participate in friendly competitions
-- Prepare for ICPC training
-
-## 📖 Problem Organization
-
-Problems are organized by difficulty and topic, making it easy to progress from simpler to more complex challenges.
-
----
 
 *Part of CP Solutions Repository - Level-Based Training*
