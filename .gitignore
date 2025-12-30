@@ -1,0 +1,54 @@
+# Build directories
+cmake-build-debug/
+cmake-build-debug-mingw/
+cmake-build-release/
+build/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+
+# C++ specific
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Executable files
+a.out
+*.bin
+
+# Temporary files
+tempCodeRunnerFile.cpp
+tempCodeRunnerFile.c++
+*.tmp
+
+# Output and debug files
+error.txt
+output.txt
+test*.txt
+*.log
+
+# Python cache (if applicable)
+__pycache__/
+*.py[cod]
+*$py.class

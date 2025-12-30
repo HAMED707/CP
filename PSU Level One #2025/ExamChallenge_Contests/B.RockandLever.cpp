@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+
+#define HAMED ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
+
+#define txt  freopen("input.txt","r",stdin); freopen("output.txt","w",stdout); freopen("error.txt","w",stderr);
+
+
+#define ll long long
+#define ld long double
+#define all(X) X.begin(),X.end()
+
+
+using namespace std;
+const int N=1e5+5;
+bool ans(int i,int j) {
+    return (i&j)>=(i^j);
+}
+
+void solve(){
+    int n;cin>>n;
+    vector<int> a(n);
+    ll r=0;
+    for(auto&i:a)cin>>i;
+    //vector<int>ans;
+    sort(all(a));
+    for (int i=0;i<n;i++)  for (int j=i+1;j<n;j++) {
+        if(!ans(a[i],a[j]))break;
+        r++;
+    }
+    cout<<r<<'\n';
+
+}
+
+int main (){
+
+   // txt
+    HAMED
+    int t; cin>>t;
+    while (t--)solve();
+    return 0;
+}
