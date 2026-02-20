@@ -12,6 +12,9 @@
 .idea/
 
 # C/C++
+# Ignore compiled output
+
+
 *.o
 *.obj
 *.a
